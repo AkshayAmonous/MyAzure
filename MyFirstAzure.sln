@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstAzure", "MyFirstAzure\MyFirstAzure.csproj", "{F60230D2-971D-46BF-A83B-0EF7FB7F99DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{FD1CCA90-6429-4693-B0D7-D0954E6BCF41}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{E1CC72AE-BE62-44D0-9B9F-FB9F6C67DBCB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\MyFirstAzure-VM-dev.json = PublishScripts\Configurations\MyFirstAzure-VM-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60230D2-971D-46BF-A83B-0EF7FB7F99DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60230D2-971D-46BF-A83B-0EF7FB7F99DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60230D2-971D-46BF-A83B-0EF7FB7F99DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60230D2-971D-46BF-A83B-0EF7FB7F99DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1CC72AE-BE62-44D0-9B9F-FB9F6C67DBCB} = {FD1CCA90-6429-4693-B0D7-D0954E6BCF41}
+	EndGlobalSection
+EndGlobal
